@@ -50,9 +50,15 @@ Submit a link to your GitHub repo.
 https://github.com/kenzie-se-q4/hierarchical-data-and-you-<github_username>/
 ```
 
-
+"""
+This project is all about viewing a list of of parents and children that was built in the models file""
 ''''''
 To run the project on your machiene follow 2 steps:
-1- pip install django-mptt
-2 - pipenv shell
+1-Clone the project using the project link from github
+2-From your terminal, navigate to the project folder
+3-run pipenv install, and then pipenv shell
+4-create a superuser
+5-Type in python manage.py runserver
+
 """
+
