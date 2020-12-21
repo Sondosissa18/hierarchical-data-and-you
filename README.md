@@ -49,3 +49,10 @@ Submit a link to your GitHub repo.
 ```
 https://github.com/kenzie-se-q4/hierarchical-data-and-you-<github_username>/
 ```
+
+
+''''''
+To run the project on your machiene follow 2 steps:
+1- pip install django-mptt
+2 - pipenv shell
+"""

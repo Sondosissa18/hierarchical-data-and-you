@@ -9,7 +9,7 @@ def index(request):
 
     return render(request, 'home.html', {'folder': all_folders})
 
-    # item.get_ancestors()
+   
 
 
 
@@ -27,18 +27,5 @@ def create_folder(request):
                 return HttpResponseRedirect(reverse("homepage"))
     form = NewFolderForm()
     return render(request, html, {"form": form})
-
-
-# def create_folder(request):
-#     if request.method == 'POST':
-#         folder_form = NewFolderForm(request.POST)
-#         if folder_form.is_valid():
-#             folder_form = folder_form.save(commit=False)
-#             folder_form.post = post
-#             folder_form.save()
-#             return HttpResponseRedirect('home')
-#     else:
-#         folder_form = NewFolderForm()
-#     return render(request, 'folder.html', {'folder_form': folder_form})
 
 
