@@ -1,0 +1,13 @@
+<button><a href="{%  url 'create_folder' %}">ADD Folder</a></button>
+
+
+
+{% for fold in folder %}
+<h1>List of Folders</h1>
+<ul>
+    <strong><li>Name: {{ fold.name }}</li></strong>
+    <strong><li>Parent:{{ fold.parent }}</li></strong>
+  </li>
+</ul>
+
+{% endfor %}
